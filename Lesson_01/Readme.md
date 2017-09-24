@@ -47,3 +47,27 @@ boolean steeringWheelDrive = false;
 int prevState = 0;
 String switchWiggle = "left";
 ```
+
+## Arithmetic Operations ##
+In programming, Arithmetic Operators can be used to perform calculations in a program. Some examples are:
+* ```+```: The addition operator is used to add numbers.
+* ```-```: The subtraction operator is used to subtract numbers.
+* ```*```: The multiplication operator is used to multiply numbers.
+* ```/```: The division operator is used to divide numbers.
+* ```%```: The remainder operator is used to output the remainder of the quotient.
+
+
+Here are some examples of when we use operators in our robot program:
+```
+Motors007.leftTalon.set(((speed+turn)));
+Motors007.rightTalon.set(((-speed+turn)));
+```
+
+```
+turn = .5*(rightValue);
+```
+
+```
+if(enc.returnrightEncValue()<(smallTurn-170))
+```
+

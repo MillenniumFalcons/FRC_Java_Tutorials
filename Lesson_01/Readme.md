@@ -18,6 +18,7 @@ public void testEncoders()
 	System.out.println("Left encoder value: " + enc.returnleftEncValue());
 }
 ```
+If you would like to learn how to print from a video, please click [here](https://www.youtube.com/watch?v=l7cf4mT0htE).
 
 ## Variables ##
 In programming, variables are like a storage location that can contain any type of data. Variables are used so that the stored data can be used on later for doing useful stuff. There are a lot of different types of data that can be stored in a variable. Here are a few examples: 
@@ -47,6 +48,8 @@ boolean steeringWheelDrive = false;
 int prevState = 0;
 String switchWiggle = "left";
 ```
+If you would like to learn about variables from a video, please click [here](https://youtu.be/XX77ZI9E0IE).
+
 
 ## Arithmetic Operations ##
 In programming, Arithmetic Operators can be used to perform calculations in a program. Some examples are:
@@ -70,4 +73,4 @@ turn = .5*(rightValue);
 ```
 if(enc.returnrightEncValue()<(smallTurn-170))
 ```
-
+If you would like to learn about arithmetic operators from a video, please click [here]https://youtu.be/RmFbY14OvdA).

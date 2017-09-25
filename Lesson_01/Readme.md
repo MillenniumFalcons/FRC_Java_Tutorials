@@ -73,4 +73,4 @@ turn = .5*(rightValue);
 ```
 if(enc.returnrightEncValue()<(smallTurn-170))
 ```
-If you would like to learn about arithmetic operators from a video, please click [here]https://youtu.be/RmFbY14OvdA).
+If you would like to learn about arithmetic operators from a video, please click [here](https://youtu.be/RmFbY14OvdA).

@@ -18,7 +18,7 @@ public void testEncoders()
 	System.out.println("Left encoder value: " + enc.returnleftEncValue());
 }
 ```
-If you would like to learn how to print from a video, please click [here](https://www.youtube.com/watch?v=l7cf4mT0htE).
+If you would like to learn about print statements from a video, please click [here](https://www.youtube.com/watch?v=l7cf4mT0htE).
 
 ## Variables ##
 In programming, variables are like a storage location that can contain any type of data. Variables are used so that the stored data can be used on later for doing useful stuff. There are a lot of different types of data that can be stored in a variable. Here are a few examples: 

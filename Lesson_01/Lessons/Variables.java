@@ -15,26 +15,26 @@ public class Variables
 {
 
     public static void main(String[] args) 
-	{
-		boolean happy, sad;
-		happy = true;
-	 	sad = false;
+    {
+	boolean happy, sad;
+	happy = true;
+	sad = false;
 		
-		String name, status, teamName;
-		name = "Surya";
-		status = "terrible code teacher";
-		teamName = "Millennium Falcons";
+	String name, status, teamName;
+	name = "Surya";
+	status = "terrible code teacher";
+	teamName = "Millennium Falcons";
 		
-		int yearFounded, currentYear;
-		yearFounded = 2011;
-		currentYear = 2017;
+	int yearFounded, currentYear;
+	yearFounded = 2011;
+	currentYear = 2017;
 		
-		float pi = 3.14f;
+	float pi = 3.14f;
 		
-		double numOne, numTwo, quotient;
-		numOne = 4.557;
-		numTwo = 1.597;
-		quotient = numOne / numTwo;
+	double numOne, numTwo, quotient;
+	numOne = 4.557;
+	numTwo = 1.597;
+	quotient = numOne / numTwo;
 		
 		
         System.out.println("My name is " + name + ".");
@@ -46,6 +46,6 @@ public class Variables
         System.out.println(pi + " is the most awesome number in the world.");
         System.out.println(numOne + " divided by " + numTwo + " is " + quotient + ".");
         
-  	}
+     }
     
 }

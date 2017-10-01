@@ -17,3 +17,4 @@ For setting up java on eclipse:
 4. Go over the [example file](https://github.com/Suryamadhan/FRC_Java_Tutorials/blob/master/Lesson_01/Lessons/Variables.java) for variables and arithmetic operators.
 5. Try doing both the [exercise files](https://github.com/Suryamadhan/FRC_Java_Tutorials/tree/master/Lesson_01/Exercises) without looking at the examples.
 Good luck
+* Note: In order to do Lesson_01, please download the [zip file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_01/Lesson_01.zip).

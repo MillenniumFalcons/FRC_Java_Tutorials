@@ -21,21 +21,13 @@ public class IfStatements
 		{
 			status = " sold more than 5 albums.";
 		}
-		else if(albumsSold == 5)
+		else if(albumsSold > 3)
 		{
-			status = " sold 5 albums.";
+			status = " sold about 4-5 albums.";
 		}
-		else if(albumsSold == 4)
+		else if(albumsSold >1)
 		{
-			status = " sold 4 albums.";
-		}
-		else if(albumsSold == 3)
-		{
-			status = " sold 3 albums.";
-		}
-		else if(albumsSold == 2)
-		{
-			status = " sold 2 albums.";
+			status = " sold about 2-3 albums.";
 		}
 		else if(albumsSold == 1)
 		{

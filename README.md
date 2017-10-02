@@ -18,3 +18,15 @@ For setting up java on eclipse:
 5. Try doing both the [exercise files](https://github.com/Suryamadhan/FRC_Java_Tutorials/tree/master/Lesson_01/Exercises) without looking at the examples.
 Good luck
 * Note: In order to do Lesson_01, please download the [zip file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_01/Lesson_01.zip).
+
+
+## Lesson_02 ##
+### Conditional statements and Operators ###
+1. Read about Conditional statements and Else if statements from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_02/README.md) file
+2. Go over the [example file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_02/Lessons/IfStatements.java) for learning about conditional statements.
+3. Read about Relational and Logical Operators from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_02/README.md) file
+4. Go over the [example file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_02/Lessons/additionalExample.java) for learning about Relational and Logical Operators.
+5. Try doing the [exercise files](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/tree/master/Lesson_02/Exercises) without looking at the examples.
+Good luck
+* Note: In order to do Lesson_02, please download the [zip file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_02/Lesson_02.zip).
+

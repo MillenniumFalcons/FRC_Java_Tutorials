@@ -50,7 +50,7 @@ If you would like to learn about else if statements from a video, please click [
 ## Relational and Logical Operators ##
 Relational and Logical Operators are operators used to manipulate and compare variables. Here are some examples: 
 * ```==``` The equals to operator is to check if the value of 2 variables are equal or not, if yes then the condition becomes true
-* ```!=``` The equals to operator is to check if the value of 2 variables are not equal or equal, if they are not equal then the condition becomes true
+* ```!=``` The not equals to operator is to check if the value of 2 variables are not equal or equal, if they are not equal then the condition becomes true
 * ```>``` The greater than operator is to check if the value of the left variable is greater than the right variable, if yes then the condition becomes true
 * ```>=``` The greater than or equal to operator is to check if the value of the left variable is greater than or equal to the right variable, if yes then the condition becomes true
 * ```<``` The less than operator is to check if the value of the left variable is less than the right variable, if yes then the condition becomes true

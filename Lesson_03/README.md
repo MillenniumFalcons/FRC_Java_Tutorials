@@ -22,7 +22,24 @@ As you can see, we were able print ```Hello World``` 3 times by using a for loop
 
 How the actual for loop worked: The first time the piece of code was executed, it prints ```Hello World``` and the value of variable ```i``` becomes 2 from 1, because of the ```i++``` statement. The second time it runs, it prints ```Hello World``` once again and the value of variable ```i``` becomes 3 from 2. The third time it runs, it prints ```Hello World``` one more time, and the value of variable ```i``` becomes 4 from 3. The computer doesn't run the for loop for the 4th time, because the value of ```i``` is 4, and the condition ```i<=3``` becomes false. Since the value of the condition becomes false, the compiler exits the for loop, and the program is completed.
 
-Here are some examples of when we used for loops in our robot program:
+An example of when we use for loops in our robot is when we make the robot Wiggle during the Autonomous Period:
+```
+for (int i = 1; i<=5;i++)
+{
+    Motors007.leftTalon.set(.6);
+    Timer.delay(.15);
+    Motors007.leftTalon.set(-.3);
+    enc.resetRight();
+								
+    Motors007.rightTalon.set(-.6);
+    Timer.delay(.12);
+    Motors007.rightTalon.set(.3);
+    enc.resetLeft();	
+}
+```
+If you would like to learn about for loops from a video, please click [here](https://youtu.be/rjkYAs6gAkk).
 
 ## Nested For loops ##
-Nested for loops are when loops are within other for loops. An example of this can be found in the lesson file.
+Nested for loops are when loops are within other for loops. Some examples of this can be found in the [lesson file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/Lessons/forLoopsComplex.java). If you would like to look at more examples, please click [here](https://www.programiz.com/java-programming/nested-loop).
+
+If you would like to learn about nested for loops from a video, please click [here](https://youtu.be/5wdcU-exgWM).

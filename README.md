@@ -35,8 +35,8 @@ Good luck
 ### For Loops and Nested For Loops ###
 1. Read about For Loops from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/README.md) file
 2. Go over the [example file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/Lessons/forLoopsIntro.java) for learning about for loops.
-3. Read about Relational and Logical Operators from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/README.md) file
+3. Read about Nested for loops from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/README.md) file
 4. Go over the [example file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_02/Lessons/additionalExample.java) for learning about Relational and Logical Operators.
 5. Try doing the [exercise files](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/tree/master/Lesson_03/Exercises) without looking at the examples.
 Good luck
-* Note: In order to do Lesson_02, please download the [zip file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/Lesson_03.zip).
+* Note: In order to do Lesson_03, please download the [zip file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/Lesson_03.zip).

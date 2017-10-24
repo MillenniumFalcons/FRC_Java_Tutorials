@@ -39,6 +39,41 @@ for (int i = 1; i<=5;i++)
 ```
 If you would like to learn about for loops from a video, please click [here](https://youtu.be/rjkYAs6gAkk).
 
+## System.out.println() VS System.out.print() ##
+Both ```System.out.println()``` and ```System.out.print()``` are statements we use to print on to the java console. The difference between ```System.out.println()``` and ```System.out.print()``` is that the ```System.out.println("###")``` statement would print ```###``` and would move the cursor to a new line. The ```System.out.print()``` statement would print ```###```, but would not move the cursor to a new line.
+
+So for example, If you state that: 
+```
+System.out.println("Programming is Awesome.");
+System.out.println("Robots are Awesome.");
+```
+The result would be:
+```
+Programming is Awesome.
+Robots are Awesome.
+```
+
+But, If you state: 
+```
+System.out.print("Programming");
+System.out.print(" ");
+System.out.print("is");
+System.out.print(" ");
+System.out.print("Awesome.");
+System.out.println();
+System.out.print("Robots");
+System.out.print(" ");
+System.out.print("are");
+System.out.print(" ");
+System.out.print("Awesome.");
+```
+The result would be the same: 
+```
+Programming is Awesome.
+Robots are Awesome.
+```
+Note: The ```System.out.println();``` statement is used so that the print statements after that print in a new line.
+
 ## Nested For loops ##
 Nested for loops are when loops are within other for loops. Some examples of this can be found in the [lesson file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/Lessons/forLoopsComplex.java). If you would like to look at more examples, please click [here](https://www.programiz.com/java-programming/nested-loop).
 

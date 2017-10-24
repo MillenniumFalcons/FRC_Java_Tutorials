@@ -42,4 +42,4 @@ If you would like to learn about for loops from a video, please click [here](htt
 ## Nested For loops ##
 Nested for loops are when loops are within other for loops. Some examples of this can be found in the [lesson file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/Lessons/forLoopsComplex.java). If you would like to look at more examples, please click [here](https://www.programiz.com/java-programming/nested-loop).
 
-If you would like to learn about nested for loops from a video, please click [here](https://youtu.be/5wdcU-exgWM).
+If you would like to learn about nested for loops from a video, please click [here](https://youtu.be/DoUdYh9V5aQ).

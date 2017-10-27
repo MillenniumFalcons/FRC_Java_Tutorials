@@ -75,6 +75,31 @@ Robots are Awesome.
 Note: The ```System.out.println();``` statement is used so that the print statements after that print in a new line.
 
 ## Nested For loops ##
-Nested for loops are when loops are within other for loops. Some examples of this can be found in the [lesson file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/Lessons/forLoopsComplex.java). If you would like to look at more examples, please click [here](https://www.programiz.com/java-programming/nested-loop).
+Nested for loops are when loops are within other for loops. This enables us to repeat a block of code, and repeat that block of code over again which can form patterns. Let's go over a simple example:
+
+If we state: 
+```
+for(int i=1; i<=7;i++) 
+{
+    for (int j=1; j<=i; j++) 
+    {
+        System.out.print("*");
+    }
+    System.out.println();
+}
+```
+The result would be: 
+```
+*
+**
+***
+****
+*****
+******
+*******
+```
+As you can see we were able to make a pattern by using Nested For loops. Now let's dive into what each component of code and see what it does. The first for loop: ```for(int i=1; i<=7;i++)``` represents the number of rows in the pattern, and the second for loop: ```for (int j=1; j<=i; j++)``` represent the number of characters in each row. As you may have noticed, there are 7 rows in the pattern. This is because the first for loop runs 7 times. The second for loop controls how many asterisks are printed in each row. The reason why the number of asterisks changes between each row is that the number of times we print each asterisk is actually dependent on which row we are in (```j<=i```). As you may have noticed, we actually tell the program to print the asterisk ```i``` times(```j<=i```). So if we are in row 1, the asterisk gets printed once because the value of ```i``` is 1. The row number correlates with the number of times we print the asterisk.
+
+More examples of nested for loops can be found in the [lesson file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/Lessons/forLoopsComplex.java). If you would like to look at more examples, please click [here](https://www.programiz.com/java-programming/nested-loop).
 
 If you would like to learn about nested for loops from a video, please click [here](https://youtu.be/DoUdYh9V5aQ).

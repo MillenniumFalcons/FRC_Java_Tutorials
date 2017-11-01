@@ -19,7 +19,7 @@ public class AnotherExample
 		double timeInMinutes = 0;
 		double  timeInHours = 0;
 		System.out.println("Let's start travelling.");
-		while(distanceTravelled  != distaceRequiredToTravel)
+		while(distanceTravelled  <= distaceRequiredToTravel)
 		{
 			distanceTravelled += (averageSpeed/60);
 			timeInMinutes +=1;

@@ -1,3 +1,4 @@
+//In this exercise we will calculate the slope between 2 points and the distance between 2 points
 public class exerciseOne
 {
 	public static void main(String[]args)

@@ -1,5 +1,3 @@
-package Exercises;
-
 /*
 Lesson _04
 In this exercise you will use for loops to create a refrigerator program 

@@ -1,4 +1,13 @@
-//In this lesson we use functions to heet or cool objects
+/*
+Lesson _05
+In this lesson we will expand our knowledge on how we can use return functions in java
+In this example, we will use return functions to heat/cool objects
+ */
+
+/*
+ * @author Surya
+ */
+
 public class returnFunctionsComplex
 {
 	public static void main(String[]args)
@@ -21,6 +30,7 @@ public class returnFunctionsComplex
 		}
 	}
 	
+	//This function heats the object
 	static String Heater(double initialTemp, double finalTemp, double rate)
 	{
 		int time =0; //in minutes
@@ -32,6 +42,7 @@ public class returnFunctionsComplex
 		return "It took " + time + " minutes in order to heat the object.";
 	}
 	
+	//This function cools the object
 	static String Cooler(double initialTemp, double finalTemp, double rate)
 	{
 		int time =0; //in minutes

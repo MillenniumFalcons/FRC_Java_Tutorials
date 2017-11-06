@@ -1,4 +1,13 @@
-//In this lesson we use functions to heet or cool objects
+/*
+Lesson _05
+In this lesson we will learn how to use return functions in java
+In computer science a return function is a function that can return any datatype
+In this example, we will use return functions to create a very simple calculator
+ */
+
+/*
+ * @author Surya
+ */
 public class basicReturnFunctions 
 {
 	public static void main(String[]args)

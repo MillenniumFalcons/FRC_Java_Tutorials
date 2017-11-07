@@ -13,7 +13,7 @@ public class IfStatements
 {
 	public static void main(String[] args) 
 	{
-		String name = "Klint";
+		String name = "Eminem";
 		int albumsSold = 0 ;
 		String status;
 		
@@ -35,7 +35,7 @@ public class IfStatements
 		}
 		else
 		{
-			status = " sold no albums. RIP Klint.";
+			status = " sold no albums. RIP Eminem.";
 		}
 		
 		System.out.println(name + status);

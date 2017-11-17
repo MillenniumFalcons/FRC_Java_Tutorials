@@ -47,7 +47,7 @@ public class Robot extends IterativeRobot
 }
 ```
 
-* The ```Motors``` static way: In this case, we just make both our motor objects static. This way we are able to access objects from other classes without making an object. If you would like to access these objects in the Robot.java file, you would just have to state: ```Motors.leftMotor.whatFunctionYouWouldLikeToUse()```. Note: The object ```leftMotor``` does not actually have a method called ```whatFunctionYouWouldLikeToUse()```, it was just an example to how you would the object in the Robot.java file.
+* The ```Motors``` static way: In this case, we just make both our motor objects static. This way we can access objects from other classes without creating an object. If you would like to access these objects in the Robot.java file, you would just have to state: ```Motors.leftMotor.whatFunctionYouWouldLikeToUse()```. Note: The object ```leftMotor``` does not have a method called ```whatFunctionYouWouldLikeToUse()```, it was just an example of how you would the object in the Robot.java file.
 ```
 import edu.wpi.first.wpilibj.Spark;
 
@@ -58,7 +58,7 @@ public class Motors
 }
 ```
 
-Note: There are a lot of different types of motors we can use, and each type of motors has its own class. So for example, there is a type of motor called Victors and it has a class name called ```Victor```. Some other examples include Talons, Jaguars, etc. Here is how it would differ in the code:
+Note: There are a lot of different types of motors we can use, and each kind of motor has its own class. So for example, there is a type of motor called Victors, and it has a class name called ```Victor```. Some other examples include Talons, Jaguars, etc. Here is how it would differ in the code:
 * Sparks
 ```
 import edu.wpi.first.wpilibj.Spark;
@@ -167,3 +167,80 @@ public class Robot extends IterativeRobot
 	}	
 }
 ```
+Note: It is HIGHLY recommended to use static motors in your project. If you would like to learn more about the Spark class please read the FRC Documentation for [Sparks](http://first.wpi.edu/FRC/roborio/beta/docs/java/edu/wpi/first/wpilibj/Spark.html).
+
+## Joystick Implementation ##
+For your projects, the ```JoySticks``` class will be prewritten for you. But here is the code: 
+```
+import edu.wpi.first.wpilibj.Joystick;
+
+public class Joysticks 
+{
+	//The Joy stick Object
+	public Joystick mainController = new Joystick(0);
+	
+	//Joy stick Variables
+	public static boolean rightBumper;
+	public static boolean leftBumper;
+	public static boolean buttonA;
+	public static boolean buttonB;
+	public static boolean buttonX;
+	public static boolean buttonY;
+	public static double rightTrigger;
+	public static double leftTrigger;	
+	public static double leftJoySticky;
+	public static double rightJoyStickx;
+	public static double rightJoySticky;
+	public static double leftJoyStickx;
+	
+	//assigning values to variables through this function
+	public void updateMainController()
+	{
+		rightBumper =	mainController.getRawButton(6);
+		leftBumper =	mainController.getRawButton(5);
+		leftTrigger =mainController.getRawAxis(2);
+		buttonA =	mainController.getRawButton(1);
+		buttonB = mainController.getRawButton(2);
+		rightTrigger =mainController.getRawAxis(3);
+		buttonY = mainController.getRawButton(4);
+		leftJoySticky =-mainController.getRawAxis(1);
+		leftJoyStickx =mainController.getRawAxis(0);
+		rightJoyStickx =mainController.getRawAxis(4);
+		rightJoySticky =mainController.getRawAxis(5);
+		
+	}
+}
+```
+The ```mainController``` is the Joystick object we use to obtain values from the controller. We use the ```getRawButton``` function for digital, and ```getRawAxis()``` for analogue. We use the ```updateMainController()``` function to assign values to the joystick variables. 
+
+So, in order to implemet this class into the Robot.java file, we create a Joystick Object. 
+```
+public class Robot extends IterativeRobot 
+{
+	Joysticks joyStickObject;
+	public void robotInit() 
+	{
+		joyStickObject = new Joysticks();
+	}
+}
+```
+If we would like the robot to move forward when a button is pressed, and for the robot to not move when the button is not pressed, the code will look something like this (assuming you have already created the joystick object):
+```
+public void teleopPeriodic() 
+	{
+		if(joyStickObject.buttonA)
+		{
+			Motors.leftMotor.set(.5);
+			Motors.rightMotor.set(-.5);
+		}
+		else
+		{
+			Motors.leftMotor.set(0);
+			Motors.rightMotor.set(0);
+		}
+	}
+```
+
+If you would like to learn more about the Joystick class created by FIRST, please read the about the Joystick class from the FRC Java [API](http://first.wpi.edu/FRC/roborio/beta/docs/java/edu/wpi/first/wpilibj/Joystick.html).
+
+Good luck on the project!

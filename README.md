@@ -50,7 +50,6 @@ Good luck
 * Note: In order to do Lesson_04, please download the [zip file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_04/Lesson_04.zip).
 
 ## Lesson_05 ##
-### Methods ###
 1. Read about return methods from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_05/README.md) file.
 2. Go over the [example files](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/tree/master/Lesson_05/Return%20Functions/Lessons) for learning about return methods.
 3. Read about void methods from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_05/README.md) file.
@@ -58,4 +57,14 @@ Good luck
 5. Try doing the exercise files for both [void functions](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_05/VoidFunctions/Exercises/exercise.java) and [return functions](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_05/Return%20Functions/Exercises/exercise.java) without looking at the examples.
 Good luck
 * Note: In order to do Lesson_03, please download the [zip file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_05/Lesson_05.zip).
+
+## Installing the FRC Environment onto Eclipse ##
+* To program for the robot, you have to install a different environment provided by FRC. Here is a [video](https://youtu.be/80QNfripEOI?t=306) on how to install the FRC plugins for eclipse.
+* Note: If you have already installed eclipse and the Java JDK's like you should have, please skip the video to the 5:06 mark.
+
+## FRC Project_01 ##
+1. To learn about the basic stuff on the Robot Project, go over the [Readme file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/FRC_Project_01/README.md).
+2. To do this project, you are going to download the zip file from [here](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/FRC_Project_01/FrcProject_01.zip).
+3. Good Luck on the Project! Do remember that you can work with a partner and can use online resources to complete this project. 
+
 

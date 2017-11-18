@@ -22,9 +22,9 @@ Good luck
 
 ## Lesson_02 ##
 ### Conditional statements and Operators ###
-1. Read about Conditional statements and Else if statements from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_02/README.md) file
+1. Read about Conditional statements and Else if statements from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_02/README.md) file.
 2. Go over the [example file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_02/Lessons/IfStatements.java) for learning about conditional statements.
-3. Read about Relational and Logical Operators from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_02/README.md) file
+3. Read about Relational and Logical Operators from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_02/README.md) file.
 4. Go over the [example file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_02/Lessons/additionalExample.java) for learning about Relational and Logical Operators.
 5. Try doing the [exercise files](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/tree/master/Lesson_02/Exercises) without looking at the examples.
 Good luck
@@ -33,10 +33,38 @@ Good luck
 
 ## Lesson_03 ##
 ### For Loops and Nested For Loops ###
-1. Read about For Loops from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/README.md) file
+1. Read about For Loops from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/README.md) file.
 2. Go over the [example file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/Lessons/forLoopsIntro.java) for learning about for loops.
-3. Read about Nested for loops from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/README.md) file
-4. Go over the [example file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_02/Lessons/additionalExample.java) for learning about Relational and Logical Operators.
+3. Read about Nested for loops from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/README.md) file.
+4. Go over the [example file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_02/Lessons/additionalExample.java) for learning about Nested For loops.
 5. Try doing the [exercise files](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/tree/master/Lesson_03/Exercises) without looking at the examples.
 Good luck
 * Note: In order to do Lesson_03, please download the [zip file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_03/Lesson_03.zip).
+
+## Lesson_04 ##
+### While Loops ###
+1. Read about While Loops from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_04/README.md) file.
+2. Go over both the [example files](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/tree/master/Lesson_04/Lessons) for learning about while loops.
+3. Try doing the [exercise file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_04/Exercises/Exercise.java) without looking at the examples.
+Good luck
+* Note: In order to do Lesson_04, please download the [zip file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_04/Lesson_04.zip).
+
+## Lesson_05 ##
+1. Read about return methods from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_05/README.md) file.
+2. Go over the [example files](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/tree/master/Lesson_05/Return%20Functions/Lessons) for learning about return methods.
+3. Read about void methods from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_05/README.md) file.
+4. Go over the [example file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_05/VoidFunctions/Lessons/voidFunctions.java) for learning about void functions.
+5. Try doing the exercise files for both [void functions](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_05/VoidFunctions/Exercises/exercise.java) and [return functions](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_05/Return%20Functions/Exercises/exercise.java) without looking at the examples.
+Good luck
+* Note: In order to do Lesson_03, please download the [zip file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_05/Lesson_05.zip).
+
+## Installing the FRC Environment onto Eclipse ##
+* To program for the robot, you have to install a different environment provided by FRC. Here is a [video](https://youtu.be/80QNfripEOI?t=306) on how to install the FRC plugins for eclipse.
+* Note: If you have already installed eclipse and the Java JDK's like you should have, please skip the video to the 5:06 mark.
+
+## FRC Project_01 ##
+1. To learn about the basic stuff on the Robot Project, go over the [Readme file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/FRC_Project_01/README.md).
+2. To do this project, you are going to download the zip file from [here](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/FRC_Project_01/FrcProject_01.zip).
+3. Good Luck on the Project! Do remember that you can work with a partner and can use online resources to complete this project. 
+
+

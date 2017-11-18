@@ -211,7 +211,7 @@ public class Joysticks
 	}
 }
 ```
-The ```mainController``` is the Joystick object we use to obtain values from the controller. We use the ```getRawButton``` function for digital, and ```getRawAxis()``` for analogue. We use the ```updateMainController()``` function to assign values to the joystick variables. 
+The ```mainController``` is the Joystick object we use to obtain values from the controller. We use the ```getRawButton``` function for digital, and ```getRawAxis()``` for analog. We use the ```updateMainController()``` function to assign values to the joystick variables. 
 
 So, in order to implemet this class into the Robot.java file, we create a Joystick Object. 
 ```

@@ -1,4 +1,6 @@
-# Methods #
+# Lesson_05 #
+
+## Methods ##
 The method is a set of code that can be referred to by a name at any point of the program. You can think of a method as a subprogram that contains code, and only runs that piece of code if called. Note: Methods and functions are the same thing, they are just 2 different terms that mean the same thing.
 There are 2 types of methods: return methods and void methods. 
 

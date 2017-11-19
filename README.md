@@ -50,6 +50,7 @@ Good luck
 * Note: In order to do Lesson_04, please download the [zip file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_04/Lesson_04.zip).
 
 ## Lesson_05 ##
+### Methods ###
 1. Read about return methods from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_05/README.md) file.
 2. Go over the [example files](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/tree/master/Lesson_05/Return%20Functions/Lessons) for learning about return methods.
 3. Read about void methods from the [Readme.md](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/Lesson_05/README.md) file.

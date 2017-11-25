@@ -56,3 +56,27 @@ public class Robot extends IterativeRobot
 	}
 }
 ```
+
+We can also set encoder values to ```0``` by calling the ```reset()``` function:
+* ```Encoders.java```
+```
+public class Encoders 
+{
+	//This function sets the value of both the encoders to 0
+	public void resetEncoders()
+	{
+		rightEncoder.reset();
+		leftEncoder.reset();
+	}
+}
+```
+* ```Robot.java```
+```
+public class Robot extends IterativeRobot 
+{	
+	public void autonomousInit() 
+	{
+		encodersObject.resetEncoders();
+	}
+}
+```

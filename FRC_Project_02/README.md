@@ -120,8 +120,9 @@ public void autonomousPeriodic()
 ```
 
 ## Extra Notes for Completing the Exercise ##
-* In order to make the robot straight, you would have to compare both the values of the ```getLeftEncoder()``` and ```getRightEncoder```, and the motor values of each motor should depend on the difference of both the encoder values.
-* You would have to call the ```resetEncoders()``` function in the ```autonomousInit()```, so that encoder values reset everytime you start the robot.
-* If you would like to learn more about the Encoder class created by FIRST, lease read the about the Encoder class from the FRC Java [API](http://first.wpi.edu/FRC/roborio/release/docs/java/).
+* To make the robot straight, you would have to compare both the values of the ```getLeftEncoder()``` and ```getRightEncoder```, and the motor values of each motor should depend on the difference of both the encoder values.
+* You would have to call the ```resetEncoders()``` function in the ```autonomousInit()```, so that encoder values reset every time, you start the robot.
+* Use the ```speed``` variable in the Robot.java file. That should be the standard speed the robot moves at.
+* If you would like to learn more about the Encoder class created by FIRST, please read the about the Encoder class from the FRC Java [API](http://first.wpi.edu/FRC/roborio/release/docs/java/).
 
 Good luck on the project!

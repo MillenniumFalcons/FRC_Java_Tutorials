@@ -11,7 +11,7 @@ Lets go over some of the functions it contains:
 * ```teleopPeriodic()```: The teleopPeriodic() function is the function that is called during the teleoperated period. This function runs periodically, meaning it acts as an infinite loop.
 * ```testPeriodic()```: The testPeriodic() is the function that is called during the test. The test is an option available in the driver station and can be used to test specific pieces of code.
 
-## Motors implementation ##
+## Motors ##
 In order to implement motors into our robot code, it is an excellent method to create a separate class for the motors themselves.  Here is an example:
 ```
 import edu.wpi.first.wpilibj.Spark;
@@ -169,7 +169,7 @@ public class Robot extends IterativeRobot
 ```
 Note: It is HIGHLY recommended to use static motors in your project. If you would like to learn more about the Spark class please read the FRC Documentation for [Sparks](http://first.wpi.edu/FRC/roborio/beta/docs/java/edu/wpi/first/wpilibj/Spark.html).
 
-## Joystick Implementation ##
+## Joystick  ##
 For your projects, the ```JoySticks``` class will be prewritten for you. But here is the code: 
 ```
 import edu.wpi.first.wpilibj.Joystick;
@@ -228,6 +228,7 @@ If we would like the robot to move forward when a button is pressed, and for the
 ```
 public void teleopPeriodic() 
 	{
+		updateMainController();
 		if(joyStickObject.buttonA)
 		{
 			Motors.leftMotor.set(.5);

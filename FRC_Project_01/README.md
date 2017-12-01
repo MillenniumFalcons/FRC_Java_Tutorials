@@ -228,8 +228,8 @@ If we would like the robot to move forward when a button is pressed, and for the
 ```
 public void teleopPeriodic() 
 	{
-		updateMainController();
-		if(joyStickObject.buttonA)
+		joyStickObject.updateMainController();
+		if(Joysticks.buttonA)
 		{
 			Motors.leftMotor.set(.5);
 			Motors.rightMotor.set(-.5);

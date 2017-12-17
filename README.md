@@ -69,3 +69,12 @@ Good luck
 3. Good Luck on the Project! Do remember that you can work with a partner and can use online resources to complete this project. 
 
 
+## FRC Project_02 ##
+1. To learn about encoders and how to use them, go over the [Readme file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/FRC_Project_02/README.md).
+2. To do this project, you are going to download the zip file from [here](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/FRC_Project_02/FrcProject_02.zip).
+3. Good Luck on the Project! Do remember that you can work with a partner and can use online resources to complete this project. 
+
+## FRC Project_03 ##
+1. To learn about using joystick values to set the speed of a motor, go over the [Readme file](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/FRC_Project_03/README.md).
+2. To do this project, you are going to download the zip file from [here](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/FRC_Project_03/FrcProject_03.zip).
+3. Good Luck on the Project! Do remember that you can work with a partner and can use online resources to complete this project. 

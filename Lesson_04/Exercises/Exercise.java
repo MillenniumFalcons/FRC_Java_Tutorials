@@ -1,6 +1,6 @@
 /*
 Lesson _04
-In this exercise you will use for loops to create a refrigerator program 
+In this exercise you will use while loops to create a refrigerator program 
 You are going to use this program cool some food to a cretain temperature
  */
 

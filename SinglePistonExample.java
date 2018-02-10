@@ -6,7 +6,6 @@ public class SinglePistonExample
 {
 	//Here is an Example of a single piston
 	
-
 	//The Solenoid object
 	public static Solenoid piston = new Solenoid(1);
 	
@@ -20,7 +19,7 @@ public class SinglePistonExample
 		piston.set(false);
 	}
 	
-	//The function we will be calling in Robot.java
+	//The function we will be calling in Robot.java and Auto
 	public static void runPiston(boolean joyValue)
 	{
 		if(joyValue)

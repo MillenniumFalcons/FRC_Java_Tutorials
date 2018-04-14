@@ -16,3 +16,7 @@ Our team has a jevois camera. Here is the [documentation](https://github.com/Mil
 * If we build an arm bot, have Farrah program it.
 * Program autonomous paths for offseason competitions. (Make them time based?)
 * Also our current elevator program isn't the best. Feel free to make it better.
+
+## How to become head of programming ##
+* Don't get auto to work, blame it on mechanical or electrical.
+* Detailed video on how to become great at [programming](https://youtu.be/dQw4w9WgXcQ).

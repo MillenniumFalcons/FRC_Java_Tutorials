@@ -7,7 +7,7 @@ If you would like to review/learn java, here is a helpful [book](https://github.
 If you would like to learn about programming the robot, please start working on [FRC Projects](https://github.com/MillenniumFalcons/FRC_Java_Tutorials).
 
 ## Vision ##
-Our team has a jevois camera. Here is the [documentation]() for using it in the FRC environment.
+Our team has a jevois camera. Here is the [documentation](https://github.com/MillenniumFalcons/FRC_Java_Tutorials/blob/master/OffSeason%20Stuff%20Maybe/Using_JeVois_in_FRC_v1.0_%20(3).pdf) for using it in the FRC environment.
 * I believe that Kunal started working on it with GRIP. If you have any questions please ask him or Darren on slack.
 
 ## Other Stuff ##

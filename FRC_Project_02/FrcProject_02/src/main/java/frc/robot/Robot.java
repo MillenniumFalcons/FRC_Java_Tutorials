@@ -1,4 +1,5 @@
-package team3647robotPackage;
+
+package frc.robot;
 
 import edu.wpi.first.wpilibj.IterativeRobot;
 
@@ -46,4 +47,3 @@ public class Robot extends IterativeRobot
 		
 	}
 }
-
